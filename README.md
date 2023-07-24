@@ -1,4 +1,4 @@
-#Vanilla JavaScript project on Vite
-##Tasks from [learnJS](https://learn.javascript.ru) 
-###List of themes:
+# Vanilla JavaScript project on Vite <br/>
+## Tasks from [learnJS](https://learn.javascript.ru) <br/>
+### List of themes: <br/>
 *Основы JavaScript
