@@ -6,12 +6,13 @@
 Предусматривать обработку нечисловых строк в этой задаче необязательно.
 */
 
-let num = +prompt('Введите число больше 100', '');
-while (num < 100 && num !== null) {
-  console.log({num});
-  num = +prompt('Введите ещё раз', '');
+export default function task6() {
+  let num = +prompt('Введите число больше 100', '');
+  while (num < 100 && num !== null) {
+    console.log({num});
+    num = +prompt('Введите ещё раз', '');
+  }
 }
-
   /* решение learn js
 
 let num;

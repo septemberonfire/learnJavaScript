@@ -14,10 +14,10 @@ function checkAge(age) {
 // - Используя оператор ?
 // - Используя оператор ||
 
-function checkAge(age) {
+export default function checkAgeTask2First(age) {
   return (age>18) ? true: confirm('Родители разрешили?');
 }
 
-function checkAge(age) {
+export default function checkAgeTask2Second(age) {
   return (age>18) || confirm('Родители разрешили?');
 }

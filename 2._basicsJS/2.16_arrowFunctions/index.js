@@ -1,4 +1,4 @@
-// Замените код Function Expression стрелочной функцией:
+/* Замените код Function Expression стрелочной функцией:
 
 function ask(question, yes, no) {
   if (confirm(question)) yes()
@@ -10,8 +10,7 @@ ask(
   function() { alert("Вы согласились."); },
   function() { alert("Вы отменили выполнение."); }
 );
-
-//
+*/
 
 function ask(question, yes, no) {
   if (confirm(question)) yes()

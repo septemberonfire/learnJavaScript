@@ -2,7 +2,7 @@
 Что выведет этот скрипт?
 */
 
-let name = "Ilya";
+const name = "Ilya";
 
 alert( `hello ${1}` ); // Вывод - hello 1
 

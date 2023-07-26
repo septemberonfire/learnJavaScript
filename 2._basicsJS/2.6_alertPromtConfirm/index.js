@@ -1,2 +1,2 @@
-let userName = prompt("Ваше имя?", "");
+const userName = prompt("Ваше имя?", "");
 alert(`Приятно познакомиться, ${userName}!`);

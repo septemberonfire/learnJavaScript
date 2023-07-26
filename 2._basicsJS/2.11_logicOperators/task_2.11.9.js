@@ -11,23 +11,25 @@
 Подсказка: передача пустого ввода в приглашение prompt возвращает пустую строку ''. 
 Нажатие клавиши Esc во время запроса возвращает null.
 */
-
-const currentUser = promt('Введите логин', '')
-
-if (currentUser != 'Админ' && currentUser !='') {
-  alert('Я вас не хнаю')
-} else if (currentUser == '') {
-  alert('Отменено')
-} else if (currentUser == 'Админ') {
-  const password = alert('Введите пароль', '')
-  if (password == 'Я главный') {
-    alert('Здравствуйте')
-  } else if (password == 'null' || password == '') {
-    alert('Отменено')
-  } else alert('Неверный пароль')
+export default function task9() {
+  
+  const currentUser = prompt('Введите логин', '');
+  
+  if (currentUser != 'Админ' && currentUser !='') {
+    alert('Я вас не знаю');
+  } else if (currentUser == '') {
+    alert('Отменено');
+  } else if (currentUser == 'Админ') {
+    const password = prompt('Введите пароль', '');
+    if (password == 'Я главный') {
+      alert('Здравствуйте');
+    } else if (password == 'null' || password == '') {
+      alert('Отменено');
+    } else alert('Неверный пароль');
+  }
+  
 }
-
-
+  
 
 // Решение на сайте learnjs
 /*

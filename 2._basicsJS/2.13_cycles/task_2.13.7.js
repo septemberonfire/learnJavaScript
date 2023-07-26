@@ -5,7 +5,7 @@
 Для n = 10 результат должен быть 2,3,5,7.
 P.S. Код также должен легко модифицироваться для любых других интервалов.
 */
-
+export default function task7() {
 const isSimpleNum = (num) => {
   let res = true;
   for (let j = 2; j < num; j++) {
@@ -27,5 +27,4 @@ const task = (n) => {
     }
   }
 };
-
-task(11);
+}

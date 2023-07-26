@@ -3,12 +3,15 @@
 
 //Постфиксная форма:
 
-for (let i = 0; i < 5; i++) alert( i );
+export default function task3first() {
+  for (let i = 0; i < 5; i++) alert( i );
+}
 
 // вывод от 0 до 4
 
 // Префиксная форма:
-
-for (let i = 0; i < 5; ++i) alert( i );
+export default function task3second() {
+  for (let i = 0; i < 5; ++i) alert( i );
+}
 
 // вывод от 0 до 4

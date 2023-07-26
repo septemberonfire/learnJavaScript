@@ -1,19 +1,19 @@
 // Следующая функция возвращает true, если параметр age больше 18.
 // В ином случае она запрашивает подтверждение через confirm и возвращает его результат:
 
-function checkAge(age) {
-  if (age > 18) {
-    return true;
-  } else {
-    // ...
-    return confirm('Родители разрешили?');
-  }
-}
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   } else {
+//     // ...
+//     return confirm('Родители разрешили?');
+//   }
+// }
 // Будет ли эта функция работать как-то иначе, если убрать else?
 
 // Нет, будет также исправно работать
 
-function checkAge(age) {
+export default function checkAgeTask1(age) {
   if (age > 18) {
     return true;
   }
