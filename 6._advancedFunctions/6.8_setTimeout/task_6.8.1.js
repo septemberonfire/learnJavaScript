@@ -11,9 +11,15 @@ export default function task1() {
 
 
 function printNumbers (from, to) {
-  
+  let i = from
+  let secundomer = setInterval(function() {
+    console.log(i);
+    if (i == to) {
+      clearInterval(secundomer)
+    }
+    i++;
+  }, 1500)
 }
 
-
-
+printNumbers(1, 6)
 }
